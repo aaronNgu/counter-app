@@ -2,12 +2,6 @@ import React, {Component} from 'react';
 
 class Counter extends Component{
 
-
-
-  constructor(props){
-    super(props);
-  }
-
   render(){
     const {counter, onIncrement, onDelete} = this.props;
     return (
